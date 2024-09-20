@@ -7,7 +7,14 @@
 // Scripts
 // 
 
-const events = [];
+const events = [
+    {
+        title: "Donation Drive",
+        date: "Friday, September 12",
+        description: "yo show up",
+        imgPath: "./assets/img/designer.jpg"
+    }
+];
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -32,5 +39,5 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
+    
 });
