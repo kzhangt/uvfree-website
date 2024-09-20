@@ -7714,6 +7714,10 @@ textarea.form-control-lg {
   padding-top: 3rem !important;
 }
 
+.pt-7 {
+  padding-top: 7rem !important;
+}
+
 .pe-0 {
   padding-right: 0 !important;
 }
@@ -7784,6 +7788,10 @@ textarea.form-control-lg {
 
 .ps-5 {
   padding-left: 3rem !important;
+}
+
+.ps-6 {
+  padding-left: 3.75rem !important;
 }
 
 .gap-0 {
