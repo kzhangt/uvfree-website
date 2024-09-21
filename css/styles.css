@@ -1726,6 +1726,90 @@ progress {
     --gutter-y: 3rem;
   }
 }
+
+.contact-container {
+  font-family: "Roboto", sans-serif !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact-left-title h2 {
+  font-weight: 600px;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.contact-left-title hr {
+  border: none;
+  width: 120px;
+  height: 5px;
+  margin-bottom: 20px;
+  background-color: #000000;
+  opacity: 1;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.contact-inputs {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500px;
+  color: #666000;
+  border-radius: 50px;
+}
+.contact-inputs:focus {
+  border: 2px solid #064f15;
+}
+.contact-inputs::placeholder {
+  color: #a9a9a9;
+}
+
+.contact-left textarea {
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.contact-left button {
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #ffffff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #064f15, #15391C);
+}
+
+.contact-right img {
+  width: 700px;
+}
+
+@media (max-width:800px) {
+  .contact-inputs {
+    width: 80vw;
+  }
+  .contact-container {
+    flex-direction: column;
+    padding-top: 50rem;
+  }
+  .contact-right img{
+    width: 95%;
+  }
+}
+
 .table {
   --table-color: var(--body-color);
   --table-bg: transparent;
@@ -8044,9 +8128,13 @@ textarea.form-control-lg {
   --text-opacity: 1;
 }
 
+.bg-yellow-gradient {
+  background: linear-gradient(#fffadd, #fff7f9);
+}
+
 .bg-primary {
   --bg-opacity: 1;
-  background-color: #fffdc1 !important;
+  background-color: #fffadd !important;
 }
 
 .bg-secondary {
@@ -11023,13 +11111,13 @@ footer a:hover, footer a:active, footer a:focus {
 
 .masthead {
   position: relative;
-  background-color: #fffdc1;
+  background-color: #fffadd;
   padding-top: 16.5rem;
   padding-bottom: 12rem;
 }
 
 .masthead .text-shadow {
-  text-shadow: -3px 0px 0px #fffedb;
+  text-shadow: -3px 0px 0px #fffadd;
 }
 
 .masthead .highlight {

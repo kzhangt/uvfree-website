@@ -19,7 +19,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body id="page-top" class="bg-primary">
+    <body id="page-top" class="bg-yellow-gradient">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg fixed-top shadow-sm" id="mainNav">
             <div class="container">
@@ -31,7 +31,7 @@
                     Menu
                     <i class="bi-list"></i>
                 </button>
-                <div class="collapse navbar-collapse navbar-noto" id="navbarResponsive", sans-serif;font-weight:300">
+                <div class="collapse navbar-collapse navbar-noto" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0" style="font-family:Roboto, sans-serif;font-weight:300">
                         <li class="nav-item"><a class="nav-link me-lg-3" href="./mission.html">Mission</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="./faq.html">FAQ</a></li>
@@ -45,8 +45,24 @@
                 </div>
             </div>
         </nav>
-		<br><br><br><br>
-		<p>Contact Page</p>
+        <!-- Contact Section-->
+        <div class="contact-container">
+            <form action="" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in touch with us!</h2>
+                    <hr>
+                </div>
+                <input type="text" name="name" placeholder="Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Email" class="contact-inputs" required>
+                <input type="phone" name="phone" placeholder="Phone Number (optional)" class="contact-inputs">
+                <input type="organization" name="organizaton" placeholder="Organization (optional)" class="contact-inputs">
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-right">
+                <img src="./assets/img/contact-sticky-note.png">
+            </div>
+        </div>
         <!-- Donation Modal-->
         <div class="modal fade" id="donationModal" tabindex="-1" aria-labelledby="donationModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
