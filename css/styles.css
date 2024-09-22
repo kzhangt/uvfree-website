@@ -2043,6 +2043,18 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  #mission-body #sunscreen-pic {
+    display: none;
+  }
+  #mission-body #founder-pic {
+    display: none;
+  }
+  #mission-body #founder-footer-pic {
+    display: inline-block !important;
+  }
+  #mission-body #mission-statement {
+    margin-left: 0 !important;
+  }
 }
 @media (max-width: 1399.98px) {
   .table-responsive-xxl {
@@ -7607,6 +7619,14 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.mt-6 {
+  margin-top: 4rem !important;
+}
+
+.mt-7 {
+  margin-top: 5rem !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -7633,6 +7653,10 @@ textarea.form-control-lg {
 
 .me-5 {
   margin-right: 3rem !important;
+}
+
+.me-custom-2 {
+  margin-right: 2rem !important;
 }
 
 .me-auto {
