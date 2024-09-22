@@ -1732,7 +1732,12 @@ progress {
 }
 #mission-body h {
   font-weight: 500 !important;
-  font-size: 22px;
+  font-size: 1.5rem;
+}
+#mission-body p {
+  font-weight: 300 !important;
+  font-size: 1.06rem;
+  line-height: 2;
 }
 
 .contact-container {
@@ -1792,8 +1797,9 @@ progress {
 }
 
 .contact-left button {
-  padding: 15px 30px;
+  padding: 8px 25px;
   font-size: 16px;
+  font-weight: 500;
   color: #ffffff;
   gap: 10px;
   border: none;
@@ -7681,6 +7687,10 @@ textarea.form-control-lg {
   margin-left: 1.5rem !important;
 }
 
+.ms-custom-2 {
+  margin-left: 2rem !important;
+}
+
 .ms-5 {
   margin-left: 3rem !important;
 }
@@ -7820,6 +7830,10 @@ textarea.form-control-lg {
 
 .pt-5 {
   padding-top: 3rem !important;
+}
+
+.pt-6 {
+  padding-top: 5rem !important;
 }
 
 .pt-7 {
