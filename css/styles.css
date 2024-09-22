@@ -7864,6 +7864,18 @@ textarea.form-control-lg {
   padding-right: 3rem !important;
 }
 
+.pe-7 {
+  padding-right: 4rem !important;
+}
+
+.pe-8 {
+  padding-right: 5rem !important;
+}
+
+.pe-9 {
+  padding-right: 6rem !important;
+}
+
 .pb-0 {
   padding-bottom: 0 !important;
 }
@@ -10893,6 +10905,10 @@ html {
 
 .font-noto {
   font-family: "Noto Serif Khitan Small Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
 }
 
 .roboto-slight-bold {
