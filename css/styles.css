@@ -1721,10 +1721,18 @@ progress {
   .gx-xxl-5 {
     --gutter-x: 3rem;
   }
-  .g-xxl-5,
+  g-xxl-5,
   .gy-xxl-5 {
     --gutter-y: 3rem;
   }
+}
+
+#mission-body {
+  font-family: "Roboto", sans-serif !important;
+}
+#mission-body h {
+  font-weight: 500 !important;
+  font-size: 22px;
 }
 
 .contact-container {
@@ -6903,6 +6911,14 @@ textarea.form-control-lg {
 
 .opacity-75 {
   opacity: 0.75 !important;
+}
+
+.opacity-85 {
+  opacity: 0.85 !important;
+}
+
+.opacity-90 {
+  opacity: 0.9 !important;
 }
 
 .opacity-100 {
