@@ -2029,6 +2029,13 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 }
+
+@media (max-width: 800px) {
+  #contact-section {
+    margin-top: 250px;
+  }
+}
+
 @media (max-width: 991.98px) {
   .table-responsive-lg {
     overflow-x: auto;
@@ -2036,6 +2043,10 @@ progress {
   }
   #masthead-icons {
     display: none;
+  }
+  #mission-body .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
 }
 @media (max-width: 1199.98px) {
