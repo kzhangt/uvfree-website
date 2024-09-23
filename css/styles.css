@@ -3861,8 +3861,8 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  --navbar-padding-x: 0;
-  --navbar-padding-y: 0;
+  --navbar-padding-x: 0.75rem;
+  --navbar-padding-y: 0.75rem;
   --navbar-color: rgba(0, 0, 0, 0.55);
   --navbar-hover-color: rgba(0, 0, 0, 0.7);
   --navbar-disabled-color: rgba(0, 0, 0, 0.3);
@@ -5613,6 +5613,15 @@ textarea.form-control-lg {
   }
   .modal-fullscreen-sm-down .modal-body {
     overflow-y: auto;
+  }
+  #faq-title {
+    padding-left: 2rem !important;
+  }
+  #faq-description {
+    padding-left: 2rem !important;
+  }
+  #faqsleft {
+    padding-left: 2rem !important;
   }
 }
 @media (max-width: 767.98px) {
